@@ -22,4 +22,4 @@ RUN chmod +x /opt/google/chrome/google-chrome
 ADD node_chrome.json $PATH_TO_SELENIUM/node_5555.json
 ADD selenium_grid_extras_config_chrome.json $PATH_TO_SELENIUM/selenium_grid_extras_config.json
 
-EXPOSE 5555 3000
+EXPOSE 5555 3131

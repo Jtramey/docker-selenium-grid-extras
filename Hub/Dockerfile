@@ -26,7 +26,7 @@ RUN chmod +x /opt/bin/entry_point.sh
 ADD hub_4444.json $PATH_TO_SELENIUM/hub_4444.json
 ADD selenium_grid_extras_config.json $PATH_TO_SELENIUM/selenium_grid_extras_config.json
 
-EXPOSE 4444 3000
+EXPOSE 4444 3131
 
 WORKDIR "$PATH_TO_SELENIUM"
 CMD "/opt/bin/entry_point.sh"

@@ -10,13 +10,13 @@
     "hub_config": {},
     "log_maximum_age_ms": 864000000,
     "reboot_after_sessions": "0",
-    "grid_extras_port": "3000",
+    "grid_extras_port": "3131",
     "grid_jvm_x_options": "-Xmx512m", 
     "grid_jvm_options": {
       "selenium.LOGGER.level": "SEVERE"
     },      
     "webdriver": {
-      "version": "3.14.0",
+      "version": "3.9.1",
       "directory": "/opt/selenium/webdrivers/webdriver"
     },
     "node_config_files": []

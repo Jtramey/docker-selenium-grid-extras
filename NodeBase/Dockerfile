@@ -48,7 +48,7 @@ COPY init_fluxbox /root/.fluxbox/init
 COPY bg.jpg /usr/share/images/fluxbox/ubuntu-light.png
 RUN chmod +x /opt/bin/entry_point.sh
 
-EXPOSE 5555 3000
+EXPOSE 5555 3131
 
 WORKDIR "$PATH_TO_SELENIUM"
 CMD "/opt/bin/entry_point.sh"

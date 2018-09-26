@@ -16,7 +16,7 @@
     "hub_config": {},
     "log_maximum_age_ms": 864000000,
     "reboot_after_sessions": "0",
-    "grid_extras_port": "3000",
+    "grid_extras_port": "3131",
     "grid_jvm_x_options": "-Xms512m -Xmx512m",        
     "grid_jvm_options": {
       "selenium.LOGGER.level": "SEVERE"
@@ -26,7 +26,7 @@
       "version": "2.42"
     },
     "webdriver": {
-      "version": "3.14.0"
+      "version": "3.9.1"
     },
     "node_config_files": [
       "node_5555.json"
