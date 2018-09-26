@@ -16,7 +16,7 @@
       "selenium.LOGGER.level": "SEVERE"
     },      
     "webdriver": {
-      "version": "3.8.1",
+      "version": "3.14.0",
       "directory": "/opt/selenium/webdrivers/webdriver"
     },
     "node_config_files": []
